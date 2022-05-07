@@ -1,0 +1,27 @@
+.nav {
+    color: $color-secondary;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-list {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    column-gap: 2rem;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: $color-secondary;
+    font-size: 2rem;
+    cursor: pointer;
+}
+
+.linear-link {
+    background-image: linear-gradient(to bottom right, $color-3, $color-4);
+    background-clip: text;
+    color: transparent;
+}

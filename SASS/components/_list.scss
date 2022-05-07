@@ -1,0 +1,16 @@
+.list {
+    list-style: none;
+    margin-bottom: 5rem;
+
+    &-item {
+        color: $color-white;
+        font-size: 2.4rem;
+        line-height: 2.4rem;
+    }
+
+    &-icon {
+        color: $color-white;
+        width: 2.4rem;
+        height: 2.4rem;
+    }
+}

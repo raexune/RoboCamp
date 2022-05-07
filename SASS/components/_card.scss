@@ -1,0 +1,39 @@
+.card {
+    background-image: linear-gradient(to bottom right, rgba($color-secondary, .5), rgba($color-primary, .5));
+    width: 75%;
+    text-align: center;
+    height: 50rem;
+
+    &-1 {
+        background-image: linear-gradient(to bottom right, rgba($color-secondary, .8), rgba($color-primary, .8));
+    }
+
+    &-2 {
+        background-image: linear-gradient(to bottom right, rgba($color-3, .8), rgba($color-4, .8));
+    }
+
+    &-3 {
+        background-image: linear-gradient(to bottom right, rgba($color-5, .8), rgba($color-6, .8));
+    }
+
+}
+
+.camp-name {
+    color: $color-white;
+    font-size: 3.2rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    margin-bottom: 3rem;
+    padding: 3rem 0;
+}
+
+.camp-price {
+    color: $color-white;
+    font-size: 5rem;
+    margin-bottom: 3rem;
+}
+
+.camp-text {
+    color: $color-white;
+    margin-bottom: 3rem;
+}

@@ -1,0 +1,18 @@
+.header-icon {
+    color: $color-secondary;
+    width: 2.4rem;
+    height: 2.4rem;
+    padding: 1rem;
+}
+
+.header-name {
+    font-size: 2rem;
+}
+
+.header-link:link,
+.header-link:visited {
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    color: $color-secondary;
+}

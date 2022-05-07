@@ -1,0 +1,28 @@
+.btn {
+    text-decoration: none;
+    font-size: 1.6rem;
+    padding: 1rem 2rem;
+    border-radius: 100px;
+    margin-top: 5rem;
+    transition: all .3s;
+}
+
+.btn:link,
+.btn:visited {
+    color: $color-white;
+}
+
+
+
+.btn-blue {
+    background-color: $color-secondary;
+}
+
+.btn-violet {
+    background-color: $color-5;
+}
+
+.btn-transparent {
+    background-color: transparent;
+    border: 2px solid $color-white;
+}

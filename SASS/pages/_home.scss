@@ -1,0 +1,40 @@
+.header {
+    background-color: $color-gray-dark-1;
+}
+
+.buttons-hero {
+    margin-top: 5rem;
+}
+
+
+
+.section__hero {
+    background-image: linear-gradient(rgba($color-black, .5), rgba($color-black, .5)), url(/img/hero-min.jpg);
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+
+
+.picture {
+    width: 100%;
+}
+
+.aboutus-text {
+    justify-self: center;
+}
+
+.section__camps {
+    margin: 15rem 0;
+    padding: 5rem 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 2.5rem;
+    justify-items: center;
+
+
+}
