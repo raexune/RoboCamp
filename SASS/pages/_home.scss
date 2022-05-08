@@ -22,6 +22,7 @@
 
 .picture {
     width: 100%;
+    clip-path: circle(15rem);
 }
 
 .aboutus-text {
@@ -37,4 +38,8 @@
     justify-items: center;
 
 
+}
+
+.form-container {
+    background-color: $color-secondary;
 }
